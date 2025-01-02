@@ -1,0 +1,4 @@
+alias endTime="sed -i 's!stopAt.*;!stopAt endTime;!g' system/controlDict"
+alias writeNow="sed -i 's!stopAt.*;!stopAt writeNow;!g' system/controlDict"
+alias noWriteNow="sed -i 's!stopAt.*;!stopAt noWriteNow;!g' system/controlDict"
+alias nextWrite="sed -i 's!stopAt.*;!stopAt nextWrite;!g' system/controlDict"
