@@ -1,0 +1,2 @@
+alias auxTex="rm *.aux *.bbl *.bcf *.blg *.fdb_latexmk *.fls *.ilg *.log *.nlo *.nls *.run.xml *.synctex.gz"
+alias nomenclature="makeindex main.nlo -s nomencl.ist -o main.nls; makeindex main.nlo -s nomencl.ist -o main.nls"
